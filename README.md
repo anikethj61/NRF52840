@@ -4,7 +4,11 @@ This repo consists of stuff that I found related to nRF52840
 The study material collected is based on the dongle being configured as a beacon. 
 
 NRF SDK 17: https://www.nordicsemi.com/Products/Development-software/nRF5-SDK/Download#infotabs
+
+
 NRF Connect: https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-desktop
+
+
 nRF Series: Developing on Windows with ARM Keil SDK: https://github.com/anikethj61/NRF52840/blob/main/getting_started_keil.pdf
 
 Following are screenshots in order to elaborate how to test the working of nRF52840 as a beacon using the example code: 
