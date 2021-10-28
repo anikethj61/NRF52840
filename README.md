@@ -61,4 +61,14 @@ Following are screenshots in order to elaborate how to test the working of nRF52
 ![alttext](https://github.com/anikethj61/NRF52840/blob/main/NRF%20Connect%20-%20Programmer_AddHEX.png)
 
 
-9. Once uploading the hex file, write the code from the device menu on the right -> Wait for the code to be flashes and the device will function as a beacon as soon as powered. 
+9. Once uploading the hex file, write the code from the device menu on the right -> Wait for the code to be flashes and the device will function as a beacon as soon as powered.
+
+10. Issues Faced: The example code for ble_app_beacon provided in NRF SDK is designed to advertise a certain 128 bit UUID. The code doesnt provide any manipulation options for the developer to set his own set of data. 
+
+11. Further debugging of code using nRF Connect has been challenging as the application throws a "DFU - Device Firmware Update" error which disconnects the device from nRF Connect application without actually halting the code execution
+
+![alttext](https://github.com/anikethj61/NRF52840/blob/main/nrfConnectDFUError.png)
+
+12. After configuring the beacon using a nrfConnect a possible realisation of code can be done using KEiL or SEGGER Embedded Studio IDEs, however SEGGER Embedded Studio requires JLink to be connected. 
+  JLink is a USB Powered device that is used for microcontroller debugging built by SEGGER. It is a USB Powered JTAG Emulator.
+
