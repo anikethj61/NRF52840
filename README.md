@@ -71,4 +71,9 @@ Following are screenshots in order to elaborate how to test the working of nRF52
 
 12. After configuring the beacon using a nrfConnect a possible realisation of code can be done using KEiL or SEGGER Embedded Studio IDEs, however SEGGER Embedded Studio requires JLink to be connected. 
   JLink is a USB Powered device that is used for microcontroller debugging built by SEGGER. It is a USB Powered JTAG Emulator.
+  
+
+NRF52840 as iBeacon Setup
+  Refferred Tutorial: https://www.novelbits.io/ibeacon-nrf52/
+  
 
