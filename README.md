@@ -77,3 +77,4 @@ NRF52840 as iBeacon Setup
   Refferred Tutorial: https://www.novelbits.io/ibeacon-nrf52/
   
 
+iBeacon is a BLE Advertising data format defined by Apple Inc.. It need not neccesarily require an apple device for its functioning for it merely being a advertising format 
