@@ -69,12 +69,16 @@ Following are screenshots in order to elaborate how to test the working of nRF52
 
 ![alttext](https://github.com/anikethj61/NRF52840/blob/main/nrfConnectDFUError.png)
 
+
 12. After configuring the beacon using a nrfConnect a possible realisation of code can be done using KEiL or SEGGER Embedded Studio IDEs, however SEGGER Embedded Studio requires JLink to be connected. 
   JLink is a USB Powered device that is used for microcontroller debugging built by SEGGER. It is a USB Powered JTAG Emulator.
   
 
 NRF52840 as iBeacon Setup
   Refferred Tutorial: https://www.novelbits.io/ibeacon-nrf52/
-  
+
+NRF52840 Dongle Documentation, Getting Started: https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_getting_started%2FUG%2Fgs%2Favail_protocols.html&cp=1_0_0
+
 
 iBeacon is a BLE Advertising data format defined by Apple Inc.. It need not neccesarily require an apple device for its functioning for it merely being a advertising format 
+
